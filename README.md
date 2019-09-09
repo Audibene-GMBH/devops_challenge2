@@ -4,7 +4,7 @@
 
 Welcome to Audibene's DevOps challenge :)
 
-Please try to complete the below 2 taks. Please send us a link to your public github repo containing the solution code or alternatively give us your GitHub username so we can grant you permissions to this repository.
+Please try to complete the below 2 tasks. Please send us a link to your public github repo containing the solution code or alternatively give us your GitHub username so we can grant you permissions to this repository.
 
 ## Taks 1
 
@@ -24,4 +24,4 @@ The company wants to deploy some static landing pages to AWS. One for US, one fo
 
 ### Requirements
 
-Please provide some terraform code (best version 12) that creates the 3 buckets in the regions and 3 Cloudfront distributions each pointing to one of the buckets as an origin. Please keep in mind that your company might want to add new pages in other regions or additional ones in the regions that are already used at a later time.
+Please provide some terraform code (ideally using terraform version 12) that creates 3 buckets in appropriate AWS regions and 3 Cloudfront distributions each pointing to one of the buckets as an origin. Please keep in mind that your company might want to add *many* new pages in other regions or *many* additional ones in the regions that are already used at a later time.
